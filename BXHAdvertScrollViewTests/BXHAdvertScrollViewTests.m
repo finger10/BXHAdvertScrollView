@@ -9,7 +9,6 @@
 #import <XCTest/XCTest.h>
 
 @interface BXHAdvertScrollViewTests : XCTestCase
-
 @end
 
 @implementation BXHAdvertScrollViewTests

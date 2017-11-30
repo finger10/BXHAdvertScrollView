@@ -15,6 +15,9 @@
 		E0EF1BD21FCEB43900125FC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EF1BD11FCEB43900125FC7 /* main.m */; };
 		E0EF1BDC1FCEB43900125FC7 /* BXHAdvertScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EF1BDB1FCEB43900125FC7 /* BXHAdvertScrollViewTests.m */; };
 		E0EF1BE71FCEB43900125FC7 /* BXHAdvertScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EF1BE61FCEB43900125FC7 /* BXHAdvertScrollViewUITests.m */; };
+		E0EF1BF61FCEB47400125FC7 /* BXHAdvertScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EF1BF51FCEB47400125FC7 /* BXHAdvertScrollView.m */; };
+		E0F2E0881FCFAE3700D0FD0E /* TestTImerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2E0861FCFAE3700D0FD0E /* TestTImerViewController.m */; };
+		E0F2E0891FCFAE3700D0FD0E /* TestTImerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F2E0871FCFAE3700D0FD0E /* TestTImerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		E0EF1BE21FCEB43900125FC7 /* BXHAdvertScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXHAdvertScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EF1BE61FCEB43900125FC7 /* BXHAdvertScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHAdvertScrollViewUITests.m; sourceTree = "<group>"; };
 		E0EF1BE81FCEB43900125FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EF1BF41FCEB47400125FC7 /* BXHAdvertScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHAdvertScrollView.h; sourceTree = "<group>"; };
+		E0EF1BF51FCEB47400125FC7 /* BXHAdvertScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHAdvertScrollView.m; sourceTree = "<group>"; };
+		E0F2E0851FCFAE3700D0FD0E /* TestTImerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTImerViewController.h; sourceTree = "<group>"; };
+		E0F2E0861FCFAE3700D0FD0E /* TestTImerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTImerViewController.m; sourceTree = "<group>"; };
+		E0F2E0871FCFAE3700D0FD0E /* TestTImerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTImerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				E0EF1BC31FCEB43900125FC7 /* AppDelegate.m */,
 				E0EF1BC51FCEB43900125FC7 /* ViewController.h */,
 				E0EF1BC61FCEB43900125FC7 /* ViewController.m */,
+				E0F2E0851FCFAE3700D0FD0E /* TestTImerViewController.h */,
+				E0F2E0861FCFAE3700D0FD0E /* TestTImerViewController.m */,
+				E0F2E0871FCFAE3700D0FD0E /* TestTImerViewController.xib */,
+				E0EF1BF41FCEB47400125FC7 /* BXHAdvertScrollView.h */,
+				E0EF1BF51FCEB47400125FC7 /* BXHAdvertScrollView.m */,
 				E0EF1BC81FCEB43900125FC7 /* Main.storyboard */,
 				E0EF1BCB1FCEB43900125FC7 /* Assets.xcassets */,
 				E0EF1BCD1FCEB43900125FC7 /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F2E0891FCFAE3700D0FD0E /* TestTImerViewController.xib in Resources */,
 				E0EF1BCF1FCEB43900125FC7 /* LaunchScreen.storyboard in Resources */,
 				E0EF1BCC1FCEB43900125FC7 /* Assets.xcassets in Resources */,
 				E0EF1BCA1FCEB43900125FC7 /* Main.storyboard in Resources */,
@@ -267,7 +281,9 @@
 			files = (
 				E0EF1BC71FCEB43900125FC7 /* ViewController.m in Sources */,
 				E0EF1BD21FCEB43900125FC7 /* main.m in Sources */,
+				E0EF1BF61FCEB47400125FC7 /* BXHAdvertScrollView.m in Sources */,
 				E0EF1BC41FCEB43900125FC7 /* AppDelegate.m in Sources */,
+				E0F2E0881FCFAE3700D0FD0E /* TestTImerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

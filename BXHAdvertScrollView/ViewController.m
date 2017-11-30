@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import "TestTImerViewController.h"
+
+#import "BXHAdvertScrollView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    TestTImerViewController *testVC  = [TestTImerViewController new];
+//    [self.navigationController pushViewController:testVC animated:YES];
+//
+    BXHAdvertScrollView *bxhAdScrollView = [[BXHAdvertScrollView alloc] init];
+    bxhAdScrollView.frame = CGRectMake(0, 100,self.view.frame.size.width, 20);
+    
+    //push到下一个vc 计时器并没有停止，需要手动调用方法和置为nil
+//    [bxhAdScrollView removeTimer];
+    
+    [self.view addSubview:bxhAdScrollView];
 }
 
 
